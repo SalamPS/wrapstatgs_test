@@ -1,5 +1,7 @@
 # Camera Control App
 
+![Camera Capture](../assets/capture.jpg)
+
 ## Purpose Proyek
 
 Proyek ini berfungsi sebagai modul IoT untuk kontrol kamera desktop secara real-time. Fokus utamanya adalah:

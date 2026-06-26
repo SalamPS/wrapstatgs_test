@@ -1,5 +1,7 @@
 # LamP CMS | Simulasi Pembelian
 
+![CMS Preview](../assets/cms.png)
+
 Project ini telah diimplementasikan menjadi CMS sederhana untuk simulasi pembelian produk dengan fitur CRUD:
 
 - CRUD Member

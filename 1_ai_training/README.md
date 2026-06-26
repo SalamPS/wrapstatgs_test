@@ -1,5 +1,7 @@
 # AI Training
 
+![Inference Preview](../assets/inference.jpeg)
+
 ## Ringkasan Proyek
 
 Folder ini berisi pipeline AI untuk **deteksi buah** menggunakan model YOLO (Ultralytics), mulai dari training, hingga inference (prediksi) pada gambar statis dan kamera real-time.
