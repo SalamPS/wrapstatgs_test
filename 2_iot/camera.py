@@ -8,25 +8,46 @@ from time import perf_counter
 
 import cv2
 
-from PyQt5.QtCore import QEvent, QTimer, Qt
-from PyQt5.QtGui import QImage, QKeyEvent, QPixmap
-from PyQt5.QtWidgets import (
-	QApplication,
-	QCheckBox,
-	QComboBox,
-	QDoubleSpinBox,
-	QFormLayout,
-	QGridLayout,
-	QGroupBox,
-	QHBoxLayout,
-	QLabel,
-	QMainWindow,
-	QPushButton,
-	QSpinBox,
-	QVBoxLayout,
-	QWidget,
-)
-PYQT_VERSION = 5
+try:
+	from PyQt6.QtCore import QEvent, QTimer, Qt
+	from PyQt6.QtGui import QImage, QKeyEvent, QPixmap
+	from PyQt6.QtWidgets import (
+		QApplication,
+		QCheckBox,
+		QComboBox,
+		QDoubleSpinBox,
+		QFormLayout,
+		QGridLayout,
+		QGroupBox,
+		QHBoxLayout,
+		QLabel,
+		QMainWindow,
+		QPushButton,
+		QSpinBox,
+		QVBoxLayout,
+		QWidget,
+	)
+	PYQT_VERSION = 6
+except ImportError:
+	from PyQt5.QtCore import QEvent, QTimer, Qt
+	from PyQt5.QtGui import QImage, QKeyEvent, QPixmap
+	from PyQt5.QtWidgets import (
+		QApplication,
+		QCheckBox,
+		QComboBox,
+		QDoubleSpinBox,
+		QFormLayout,
+		QGridLayout,
+		QGroupBox,
+		QHBoxLayout,
+		QLabel,
+		QMainWindow,
+		QPushButton,
+		QSpinBox,
+		QVBoxLayout,
+		QWidget,
+	)
+	PYQT_VERSION = 5
 
 
 @dataclass
