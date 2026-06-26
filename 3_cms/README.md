@@ -46,7 +46,7 @@ database.default.port = 3306
 php spark migrate
 ```
 
-1. Jalankan server lokal:
+4. Jalankan server lokal:
 
 ```bash
 php spark serve
