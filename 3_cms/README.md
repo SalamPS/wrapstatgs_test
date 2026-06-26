@@ -60,9 +60,10 @@ php spark serve
 
 PHP versi 8.2, dengan ekstensi berikut:
 
-- Koneksi Internet (kami menggunakan Live CDN Bootstrap)
-- json (diaktifkan secara default - jangan dimatikan)
+- json
 - [intl](http://php.net/manual/en/intl.requirements.php)
 - [mbstring](http://php.net/manual/en/mbstring.installation.php)
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
 - [libcurl](http://php.net/manual/en/curl.requirements.php)
+
+serta pastikan client tersambung ke internet, karena proyek ini memanfaatkan Bootstrap CDN
